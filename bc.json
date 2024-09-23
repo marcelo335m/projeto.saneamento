@@ -1,0 +1,26 @@
+{
+    "endereco": {
+      "numero1": 152,
+      "nome1": "R. Estela Bezerra da Silva",
+      "status1": "Realizado",
+      "numero2": 100,
+      "nome2": "R. Gisonita da Silva Pereira",
+      "status2": "Processo",
+      "numero3": 477,
+      "nome3": "Av. Gov. Argemiro de Figueiredo",
+      "status3": "Não realizado",
+      "numero4": 579,
+      "nome4": "R. Rita Xavier de Oliveira",
+      "status4": "Não realizado",
+      "numero5": 470,
+      "nome5": "R. Horácio Trajano de Oliveira",
+      "status5": "Realizado",
+      "numero6": 720,
+      "nome6": "Av. Primeiro de Maio",
+      "status6": "Processo"
+    },
+    "data": {
+      "data1": "27/11/23",
+      "data15": "11/12/23"
+    }
+  }

@@ -1,0 +1,386 @@
+/* Pagina 1 */
+*{
+    margin: 0% 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+:root{
+    --cor-azul-escuro: rgb(0, 0, 168);
+    --cor-azul-claro: #0295EB;
+    --cor-cinza: rgb(87, 106, 143);
+    --cor-branco: #F3F4F4;
+    --cor-cinza-escuro: #576A8F;
+    --cor-verde: #7ED957;
+    --cor-cinza-claro: #D9D9D9;
+    --cor-vermelha: #FF3131;
+}
+nav{
+    background-color: var(--cor-azul-escuro);
+    height: 8%;
+}
+.nav_div{
+    background-color: var(--cor-azul-escuro);
+    width: 40%;
+    margin: 0% 30%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 100%;
+}
+.navegacao{
+    margin: 11% 0%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 127%;
+}
+.navegacao:hover {
+    color: var(--cor-azul-claro);
+}
+.corpo{
+    height: 90%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+form{
+    height: 100%;
+}
+h1{
+    font-size: 250%;
+    margin-top: 24%;
+    text-align: center;
+}
+.nosso__site{
+    text-align: center;
+}
+.nome__cpf{
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    text-decoration: none;
+    color: black;
+}
+.cpf{
+    margin-left: 20%;
+    height: 5.5%;
+    width: 60%;
+    border: 0px solid;
+    background-color: var(--cor-azul-claro);
+    color: white;
+}
+.login{
+    margin-left: 20%;
+    margin-top: 3%;
+    height: 5.5%;
+    width: 60%;
+    border: 0px solid;
+    background-color: var(--cor-cinza);
+    color: white;
+}
+.cadastro{
+    background-color: green;
+}
+img{
+    height: 45%;
+    width: 90%;
+    margin-top: 18%;
+}
+.star{
+    color: red;
+}
+
+/* Pagina 2 */
+
+.corpo2{
+    text-align: center;
+    height: 90%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33% 34% 33%;
+}
+.legenda{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.imagem2{
+    height: 80%;
+    width: 80%;
+    margin-top: 6%;
+}
+
+/* Pagína de dicas */
+
+.legend__dicas{
+    background-color: #00BF63;
+    height: 9%;
+}
+.legend__p{
+    padding-top: 1.2%;
+    text-align: center;
+    font-size: 200%;
+}
+.corpo3{
+    height: 83%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.dica1{
+    background-color: #5CE1E6;
+    height: 80%;
+    width: 80%;
+    margin: 5% 9%;
+}
+.sumario{
+    background-color: #00BF63;
+    height: 20%;
+}
+.titulo__dica{
+    margin-top: 0%;
+    padding-top: 1%;
+}
+.conteudo__dica{
+    font-size: 160%;
+}
+
+/* Pagína de solicitação da água */
+
+.legend__agua{
+    background-color: #5CE1E6;
+}
+.corpo4{
+    height: 83%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.dados{
+    width: 100%;
+    height: 78%;
+}
+.formulario{
+    height: 83%;
+}
+.cidade{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 140%;
+}
+.entrada{
+    margin-left: 5%;
+    background-color: #5CE1E6;
+    height: 10%;
+}
+.bairro{
+    padding-top: 3%;
+}
+.enviar__form{
+    display: block;
+    background-color: green;
+    color: white;
+    border: 0px solid;
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 40%;
+    height: 10%;
+}
+.ze__gotinha{
+    height: 50%;
+    width: 70%;
+}
+
+/* Contato */
+
+.legend__atendente{
+    text-align: left;
+}
+.atendente{
+    height: 2.3%;
+    width: 2.3%;
+    margin-top: 0%;
+    margin-left: 2%;
+}
+.falar__atendente{
+    display: inline;
+    text-align: left;
+}
+.campos__atendente{
+    border: solid 8px;
+    border-color: var(--cor-cinza-escuro);
+    height: 10%;
+    width: 80%;
+    margin: 2% 10%;
+    background-color: var(--cor-branco);
+}
+.div__rodape{
+    background-color: #0295EB;
+    margin-top: 5.5%;
+    height: 10%;
+    width: 84%;
+    margin-left: 8%;
+    border-radius: 2em;
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.opcoes__texto{
+    padding-top: 0.5%;
+    color: var(--cor-azul-claro);
+}
+.suporte{
+    color: var(--cor-branco);
+    font-size: 120%;
+    padding-top: 2.3%;
+    padding-left: 2%;
+}
+.img__enviar{
+    margin-top: 9%;
+    width: 40%;
+    height: 70%;
+}
+
+/* Historico de manuteção */
+
+.bg__verde{
+    background-color: var(--cor-verde);
+}
+.bg__cinza{
+    background-color: var(--cor-cinza-claro);
+}
+.bg__vermelho{
+    background-color: var(--cor-vermelha);
+}
+.campo1{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 95%;
+    height: 10%;
+    margin: 2% 2%;
+    font-size: 28,4px;
+}
+.p_stats{
+    background-color: white;
+    height: 40%;
+    width: 30%;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 1%;
+    margin-left: 50%;
+}
+
+/* Historico de manutenções */
+
+.agenda_texto{
+    display: grid;
+    height: 13%;
+}
+.datas{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 10%;
+}
+.agenda{
+    height: 100%;
+    width: 40%;
+    margin-top: 0%;
+    margin-left: 20%;
+}
+.texto{
+    font-size: 30px;
+}
+.dados123{
+    margin-top: 4%;
+    font-size: 120%;
+    margin-left: -10%;
+}
+.div__cinza{
+    margin: 3%;
+    height: 10%;
+    width: 70%;
+    background-color: #0295EB;
+    margin-left: 10%;
+}
+.container{
+    height: 10%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 70% 10%;
+    margin-left: 10%;
+}
+.div__azul1{
+    margin: -1% 0%;
+    height: 100%;
+    width: 50%;
+    background-color: #576A8F;
+}
+.div__azul2{
+    margin: -1% 0%;
+    height: 100%;
+    width: 60%;
+    background-color: #576A8F;
+}
+.texto__m{
+    font-size: 140%;
+}
+
+/* atendimento */
+
+.entrada__dados{
+    background-color: var(--cor-azul-claro);
+    border: 0px solid;
+    border-radius: 2em;
+}
+.entrada__dados:focus{
+    outline: 0;
+}
+.bloco__a{
+    height: 40%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.bloco__b{
+    height: 40%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.rod__pag{
+    margin: 0% 8%;
+}
+.celular{
+    height: 80%;
+    width: 70%;
+    margin-top: 11%;
+    margin-left: 50%;
+}
+.text__chatbot{
+    height: 60%;
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 14%;
+    text-align: center;
+    padding-top: 6%;
+    background-color: var(--cor-cinza);
+    color: white;
+}
+.text__usuario{
+    height: 60%;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 14%;
+    text-align: center;
+    padding-top: 6%;
+    background-color: var(--cor-cinza);
+    color: white;
+}
+.chatbot{
+    height: 90%;
+    width: 80%;
+    margin-top: -5%;
+}
