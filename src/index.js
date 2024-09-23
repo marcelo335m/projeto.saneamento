@@ -1,7 +1,9 @@
 //index.js
 const express = require('express');
 const app = express();
-const port = 300;
+const port = 3000;
+
+app.use(express.static('public'))
 
 //Dados temporários armazenados em arrays
 let dadosSaneamento = [
@@ -60,11 +62,11 @@ app.listen(port, () => {
 });
 
 
-// const mensagemRoutes = require('./mensagemRoutes');
+// // const mensagemRoutes = require('./mensagemRoutes');
 
-app.use(express.json()); // Para interpretar JSON no corpo das requisições
-// app.use('/api', mensagemRoutes);
+// app.use(express.json()); // Para interpretar JSON no corpo das requisições
+// // app.use('/api', mensagemRoutes);
 
-app.listen(3000, () => {
-    console.log('Servidor rodando na porta 3000');
-});
+// app.listen(3000, () => {
+//     console.log('Servidor rodando na porta 3000');
+// });

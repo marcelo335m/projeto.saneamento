@@ -2,9 +2,8 @@
   "name": "sitedoprojetointregado-1",
   "version": "1.0.0",
   "description": "",
-  "main": "scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/index.js"
   },
   "keywords": [],
   "author": "",
